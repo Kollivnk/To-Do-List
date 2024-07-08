@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    background:url("images/bg-mobile-dark.jpg");
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    padding: 20px;
+    width: 400px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    text-align: center; /* Center the heading text */
+}
+
+.heading {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #FFD700; /* Gold color for the heading */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adds a shadow effect to the text */
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#new-task {
+    width: 80%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+#add-task {
+    padding: 10px 15px;
+    border: none;
+    background-color: #6a0dad;
+    color: white;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.tasks {
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task-text {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.task-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.complete-btn, .delete-btn {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.complete-btn {
+    color: limegreen;
+}
+
+.delete-btn {
+    color: red;
+}
