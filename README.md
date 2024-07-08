@@ -1,7 +1,7 @@
 #ToDo List Application
 
 #Overview
-The ToDo List Application is a simple and interactive web application that allows users to manage their tasks efficiently. The design for the application was created using Figma and then converted into a functional web application using HTML, CSS, and JavaScript.
+The ToDo List Application is a simple and interactive web application that allows users to manage their tasks efficiently. The design for the application was created using Figma and then converted into a functional web application using HTML, CSS, and JavaScript. This project has been deployed using Vercel.
 
 #Features
 - Add New Tasks: Users can add new tasks to their to-do list.
@@ -13,27 +13,23 @@ The ToDo List Application is a simple and interactive web application that allow
 - Design Tool: Figma
 - Frontend: HTML, CSS, JavaScript
 
-#Directory Structure
-/todo-list-app
-|-- index.html
-|-- styles.css
-|-- script.js
-|-- bg-mobile-dark.jpg
+#Live Demo
+You can view the live demo of this project [here](https://your-project-name.vercel.app).
 
 #Getting Started
 
-#Prerequisites
--++++++++++++++++++++++++++++++++++++++ Web browser (e.g., Chrome, Firefox)
+#rerequisites
+- Web browser (e.g., Chrome, Firefox)
 - Code editor (e.g., VSCode, Sublime Text)
 
 #Setup Instructions
-1. Download the Project Files:
-   - Download the project files from the repository or extract the provided ZIP file into a directory on your computer.
+1. Download the Project Files
+   - Clone the repository or download the project files from the repository.
 
-2. Open the Project Directory:
+2. Open the Project Directory
    - Open the project directory in your code editor.
 
-3. Run the Application:
+3. Run the Application
    - Open `index.html` in your web browser to view and interact with the ToDo List Application.
 
 #File Descriptions
@@ -49,6 +45,18 @@ The ToDo List Application is a simple and interactive web application that allow
 
 4. bg-mobile-dark.jpg:
    - This is the background image used in the application.
+
+#Deployment
+This project has been deployed using [Vercel](https://vercel.com). Vercel provides an easy-to-use platform for deploying static sites and frontend projects. To deploy your own version of this project, follow these steps:
+
+1. Create a Vercel Account:
+   - Sign up for a free account at [Vercel](https://vercel.com).
+
+2. Connect Vercel to Your GitHub Account:
+   - Authorize Vercel to access your GitHub account and select the repository to deploy.
+
+3. Deploy the Project:
+   - Import the repository to Vercel and deploy it using the default settings.
 
 #Design Credits
 - Figma: The initial design for this application was created using Figma, which is a powerful design tool for creating user interfaces.
