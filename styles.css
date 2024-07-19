@@ -22,7 +22,7 @@ body {
 .heading {
     font-size: 2em;
     margin-bottom: 20px;
-    color: #FFD700; /* Gold color for the heading */
+    color: #ffffff/* Gold color for the heading */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adds a shadow effect to the text */
 }
 
